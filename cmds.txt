@@ -1,0 +1,6 @@
+dotnet add package MySql.Data
+dotnet new webapi -n MinimalApiRest
+dotnet new console -n MyCSharpApp
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+dotnet add package Microsoft.EntityFrameworkCore.Tools
